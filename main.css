@@ -1,0 +1,51 @@
+html {
+    font-size: 75%;
+    box-sizing: border-box;
+  }
+    
+  .calculator {
+    border: 10px solid silver;
+    border-radius: 20px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+  }
+  
+  .screen {
+    width: 100%;
+    font-size: 5em;
+    height: 150px;
+    border: 10px solid black;
+    border-radius: 10px;
+    background-color: red;
+    color: black;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+  
+
+  .user {
+    color: darkblue;
+  }
+  
+  .all-clear {
+    background-color: red;
+    border-color: black;
+    color: white;
+  }
+  
+  .equal-sign {
+    background-color: white;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    padding: 40px;
+  }
+
